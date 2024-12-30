@@ -22,8 +22,8 @@
  *
  * @package    filter
  * @subpackage newwindowicon
- * @author     Max MacCluer and Michael Spall
- * @copyright  2022 Idaho State University, Max MacCluer and Michael Spall
+ * @author     Edited by Steffen Trutz, Original by Max MacCluer and Michael Spall
+ * @copyright  Edited by 2024 OSZIMT, Steffen Trutz, Original by 2022 Idaho State University, Max MacCluer and Michael Spall
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -52,7 +52,7 @@ class filter_newwindowicon extends moodle_text_filter {
             $targetpattern = "/target=[\"'][\s]*(_blank|_new)[\s]*[\"']/i";
             $targetfound = preg_match($targetpattern, $matches[0]);
             if($targetfound) {
-                return substr($matches[0],0,-4) . "<i aria-hidden=\"true\" class=\"icon fa fa-external-link fa-fw fa fa-externallink fa-fw\" title=\"Opens in new window\"></i><span class=\"sr-only\">Opens in new window</span></a>";
+                return substr($matches[0],0,-4) . ' <i aria-hidden="true" class="icon fa fa-external-link fa-fw fa fa-externallink fa-fw" style="margin-right:0px" title="'.get_string('tooltip', 'filter_newwindowicon').'"></i><span class="sr-only">'.get_string('tooltip', 'filter_newwindowicon').'</span></a>';
             }
             return $matches[0];
         };

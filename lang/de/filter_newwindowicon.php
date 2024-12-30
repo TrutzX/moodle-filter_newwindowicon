@@ -19,11 +19,11 @@
  *
  * @package    filter
  * @subpackage newwindowicon
- * @author     Edited by Steffen Trutz, Original by Max MacCluer and Michael Spall
- * @copyright  Edited by 2024 OSZIMT, Steffen Trutz, Original by 2022 Idaho State University, Max MacCluer and Michael Spall
+ * @author     Max MacCluer and Michael Spall
+ * @copyright  2022 Idaho State University, Max MacCluer and Michael Spall
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['filtername'] = 'Open in new window icon';
-$string['privacy:metadata'] = 'The new window icon plugin does not store any personal data.';
-$string['tooltip'] = 'Opens in new window';
+$string['filtername'] = 'In neuem Tab öffnen Icon';
+$string['privacy:metadata'] = 'Das Plugin für das neue Tab Icon speichert keine persönlichen Daten.';
+$string['tooltip'] = 'In neuem Tab öffnen';

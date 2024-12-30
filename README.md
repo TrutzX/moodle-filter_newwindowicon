@@ -2,6 +2,8 @@
 
 New Window Icon is a Moodle filter that appends the Font Awesome external link icon to links that open in a new window. It also inserts the necessary HTML for accessibility as described by [Font Awesome Accessibility Documentation](https://fontawesome.com/v5/docs/web/other-topics/accessibility).
 
+Addon to the original one: Also it is translated to german and show a tooltip.
+
 # Installation
 
 1. Download the plugin and extract into *filter/newwindowicon*.
